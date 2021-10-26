@@ -1,6 +1,6 @@
 ## Emmanouil Gionanidis page
 
-[About][]
+[About][https://gionanide.github.io/About]
 
 ### Markdown
 
