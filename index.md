@@ -4,7 +4,7 @@
 
 
 [About](https://gionanide.github.io/About) [CV]()
-[Website](https://gionanide.github.io/)
+[Website](https://gionanide.github.io/index)
 
 # Header 1
 ## Header 2
