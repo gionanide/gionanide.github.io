@@ -1,8 +1,9 @@
 ## Emmanouil Gionanidis page
 
 ```markdown
-
-[About](https://gionanide.github.io/About/) [CV]()
+https://gionanide.github.io/About - automatic!
+https://gionanide.github.io - automatic!
+[About](https://gionanide.github.io/About) [CV]()
 [Website](https://gionanide.github.io)
 
 # Header 1
