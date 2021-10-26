@@ -2,7 +2,7 @@
 
 ```markdown
 
-[About](https://gionanide.github.io/About)
+[About](https://gionanide.github.io/About/)
 
 # Header 1
 ## Header 2
