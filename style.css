@@ -178,7 +178,7 @@ section {
 
 .entry {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 320px 1fr;
   gap: 1.8rem;
   margin-bottom: 2.5rem;
   align-items: start;
