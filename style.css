@@ -353,25 +353,43 @@ footer {
 
 
 /* ====================================================================
+   TOP NAVIGATION
+   ==================================================================== */
+
+.topnav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  padding-bottom: 1.4rem;
+  margin-bottom: 3.5rem;
+  border-bottom: 1px solid var(--rule);
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+
+.topnav a {
+  color: var(--text-mute);
+  border-bottom: none;
+  font-family: var(--serif-body);
+  transition: color 0.15s ease;
+}
+
+.topnav a:hover {
+  color: var(--link);
+}
+
+.topnav a.active {
+  color: var(--text);
+  font-weight: 600;
+}
+
+
+/* ====================================================================
    SUBPAGE HEADER (used on projects.html, publications.html, etc.)
    ==================================================================== */
 
 .subpage-header {
   margin-bottom: 3.5rem;
-}
-
-.back-link {
-  margin: 0 0 1.5rem;
-  font-size: 0.95rem;
-}
-
-.back-link a {
-  color: var(--text-mute);
-  border-bottom: none;
-}
-
-.back-link a:hover {
-  color: var(--link);
 }
 
 .subpage-header h1 {
@@ -425,6 +443,13 @@ footer {
 
   .subpage-header h1 { font-size: 2.3rem; }
   .subpage-intro { font-size: 1rem; }
+
+  .topnav {
+    gap: 1.2rem;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+    font-size: 0.9rem;
+  }
 
   .bio {
     grid-template-columns: 1fr;
