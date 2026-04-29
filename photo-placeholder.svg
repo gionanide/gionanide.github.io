@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" preserveAspectRatio="xMidYMid slice">
+  <rect width="200" height="240" fill="#e8e3d3"/>
+  <circle cx="100" cy="92" r="34" fill="#cfc6ad"/>
+  <path d="M 40 240 Q 40 160 100 160 Q 160 160 160 240 Z" fill="#cfc6ad"/>
+  <text x="100" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#8c8265" font-style="italic">replace with photo.jpg</text>
+</svg>

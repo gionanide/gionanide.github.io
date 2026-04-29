@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emmanouil Gionanidis</title>
+  <meta name="description" content="PhD candidate working on deep learning for medical image segmentation. FDA-cleared product experience, EU research projects." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<main>
+
+  <!-- ====================  HEADER / BIO  ==================== -->
+  <header class="bio">
+    <div class="bio-text">
+      <h1>Emmanouil Gionanidis</h1>
+      <p class="role">
+        PhD Candidate, University of Ioannina<br>
+        Lead AI Researcher and Engineer, Ortho AI
+      </p>
+      <p>
+        I work on deep learning for medical image segmentation, with a focus on
+        methods that survive the trip from a paper to a clinical product.
+      </p>
+      <p>
+        At Ortho AI, I led the development of the X-ray segmentation models
+        powering an FDA 510(k)-cleared pre-operative templating system
+        (<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241696" target="_blank" rel="noopener">K241696</a>),
+        plus the post-market monitoring around it. In parallel, my PhD at the
+        University of Ioannina is part of the EU-funded
+        <a href="https://unica-cancer.eu" target="_blank" rel="noopener">UNiCA</a>
+        consortium on cancer treatment imaging.
+      </p>
+      <p>
+        Day-to-day stack: PyTorch, MONAI, TorchIO. Interests: uncertainty
+        estimation, region-aware risk triage, and the messy engineering side
+        of deploying segmentation models in real clinical environments.
+      </p>
+
+      <p class="contact">
+        <a href="mailto:gionanidis.csp@gmail.com">gionanidis.csp@gmail.com</a> ·
+        <a href="https://github.com/gionanide" target="_blank" rel="noopener">GitHub</a> ·
+        <a href="#" target="_blank" rel="noopener">Scholar</a> ·
+        <a href="#" target="_blank" rel="noopener">ORCID</a> ·
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a> ·
+        <a href="cv.pdf" target="_blank">CV</a>
+      </p>
+    </div>
+
+    <figure class="bio-photo">
+      <!-- replace src with photo.jpg once you upload your headshot -->
+      <img src="photo-placeholder.svg" alt="Emmanouil Gionanidis" />
+      <figcaption>Thessaloniki, Greece</figcaption>
+    </figure>
+  </header>
+
+
+  <!-- ====================  SELECTED WORK  ==================== -->
+  <section>
+    <h2>Selected work</h2>
+
+    <article class="entry">
+      <!-- swap to figures/orthoai.png when you have a real figure -->
+      <a class="entry-figure" href="#"><img src="figures/placeholder.svg" alt="Ortho AI templating system" /></a>
+      <div class="entry-text">
+        <h3><a href="#">FDA-cleared X-ray segmentation for pre-op templating</a></h3>
+        <p class="meta">Ortho AI · 2023 to present</p>
+        <p>
+          Lead the R&amp;D of the segmentation models powering an automated
+          radiological image-processing product for hip, spine, and knee
+          templating. Cleared by the FDA under 510(k) K241696. Built the
+          bootstrap-based statistical validation pipeline for regulatory
+          reporting and the post-market monitoring stack for data drift and
+          retraining triggers.
+        </p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <!-- swap to figures/risk-triage.png when ready -->
+      <a class="entry-figure" href="#"><img src="figures/placeholder.svg" alt="Risk-aware segmentation" /></a>
+      <div class="entry-text">
+        <h3><a href="#">Endpoint-aware risk triage for medical image segmentation</a></h3>
+        <p class="meta">Currently under revision · Target: Medical Image Analysis</p>
+        <p>
+          A lightweight region-aware scoring layer that reweights segmentation
+          predictions by clinical risk. Evaluated on histopathology and polyp
+          segmentation datasets. The goal is to surface the regions where a
+          missed prediction matters most, rather than treating every pixel
+          equally.
+        </p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <!-- swap to figures/dicenet.png (architecture diagram from the paper) when ready -->
+      <a class="entry-figure" href="https://ieeexplore.ieee.org/document/10182328" target="_blank" rel="noopener"><img src="figures/placeholder.svg" alt="DICE-Net architecture" /></a>
+      <div class="entry-text">
+        <h3><a href="https://ieeexplore.ieee.org/document/10182328" target="_blank" rel="noopener">DICE-Net: Convolution-Transformer for Alzheimer detection in EEG</a></h3>
+        <p class="meta">IEEE Access · 2023</p>
+        <p>
+          A hybrid convolution-transformer architecture for Alzheimer's disease
+          detection from EEG signals. Combines local feature extraction with
+          longer-range attention over the temporal axis. Co-authored with the
+          University of Ioannina medical informatics group.
+        </p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <!-- swap to figures/unica.png when ready -->
+      <a class="entry-figure" href="#"><img src="figures/placeholder.svg" alt="UNiCA cancer imaging" /></a>
+      <div class="entry-text">
+        <h3><a href="#">UNiCA: deep learning for cancer treatment imaging</a></h3>
+        <p class="meta">EU4H · University of Ioannina · 2025 to present</p>
+        <p>
+          PhD work as part of the Unified Network for International Cancer
+          Advancement, an EU consortium developing imaging methodologies to
+          support cancer treatment decisions across collaborating institutions.
+        </p>
+      </div>
+    </article>
+
+    <article class="entry">
+      <!-- swap to figures/secdev.png when ready -->
+      <a class="entry-figure" href="#"><img src="figures/placeholder.svg" alt="Cybersecurity NLP" /></a>
+      <div class="entry-text">
+        <h3><a href="#">Mapping vulnerability descriptions to adversary techniques</a></h3>
+        <p class="meta">IEEE SecDev · 2022</p>
+        <p>
+          NLP-based tool that ingests vulnerability descriptions and predicts
+          which MITRE ATT&amp;CK adversary techniques they enable. Adopted by
+          HivePro to help companies prioritize cybersecurity planning.
+          Investigated the role of text augmentation in low-data regimes for
+          this task.
+        </p>
+      </div>
+    </article>
+  </section>
+
+
+  <!-- ====================  PUBLICATIONS  ==================== -->
+  <section>
+    <h2>Publications</h2>
+
+    <ol class="pubs">
+      <li>
+        K. Stefanou, C. Bellos, G. Stergios, K. Markoglou, K. D. Tzimourta,
+        <strong>E. Gionanidis</strong>, A. T. Tzallas, M. G. Tsipouras,
+        N. Giannakeas, A. Miltiadous.
+        <em>A Novel CNN-Based Framework for Alzheimer's Disease Detection
+        using EEG Spectrogram Representations.</em>
+        Journal of Personalized Medicine, vol. 15, 2025.
+      </li>
+
+      <li>
+        A. Miltiadous, <strong>E. Gionanidis</strong>, A. T. Tzallas.
+        <em>Unsupervised Framework for Customer Segmentation in the
+        Pharmaceutical Sector.</em>
+        Conference on Economic and Social Development, Belgrade, May 2025.
+      </li>
+
+      <li>
+        A. Miltiadous, <strong>E. Gionanidis</strong>, K. D. Tzimourta,
+        T. Afrantou, N. Giannakeas, A. T. Tzallas.
+        <em>DICE-net: A Novel Convolution-Transformer Architecture for
+        Alzheimer Detection in EEG Signals.</em>
+        IEEE Access, vol. 11, pp. 71840 to 71858, 2023.
+        <a href="https://ieeexplore.ieee.org/document/10182328" target="_blank" rel="noopener">[paper]</a>
+      </li>
+
+      <li>
+        <strong>E. Gionanidis</strong>, P. Karvelis, G. Georgoulas, K. Stamos, P. Garg.
+        <em>Evaluating Text Augmentation for Boosting the Automatic Mapping
+        of Vulnerability Information to Adversary Techniques.</em>
+        IEEE SecDev, Atlanta, October 2022.
+      </li>
+
+      <li>
+        <strong>E. Gionanidis</strong>, C. Kotropoulos, M. Ntemi.
+        <em>Opinion Recommendation using Coverage for Adaptive Prediction.</em>
+        IEEE Workshop on Machine Learning for Signal Processing (MLSP),
+        Gold Coast, October 2021.
+      </li>
+
+      <li>
+        M. Ntemi, C. Kotropoulos, <strong>E. Gionanidis</strong>.
+        <em>A Weighted Ordered Probit Collaborative Kalman Filter for
+        Hotel Rating Prediction.</em>
+        IEEE Workshop on Machine Learning for Signal Processing (MLSP),
+        Pittsburgh, October 2019.
+      </li>
+    </ol>
+  </section>
+
+
+  <!-- ====================  NEWS  ==================== -->
+  <section>
+    <h2>News</h2>
+
+    <ul class="news">
+      <li><time>Apr 2026</time><span>Revising the endpoint-aware risk triage paper for submission to Medical Image Analysis.</span></li>
+      <li><time>2025</time><span>Started PhD at the University of Ioannina, working on the EU-funded UNiCA cancer imaging consortium.</span></li>
+      <li><time>2025</time><span>Joined Dialectica as a Data Scientist, working on document intelligence and speech-based interview systems at scale.</span></li>
+      <li><time>2024</time><span>FDA 510(k) clearance granted for the Ortho AI templating product (K241696).</span></li>
+      <li><time>2023</time><span>DICE-Net published in IEEE Access.</span></li>
+      <li><time>2022</time><span>SecDev paper accepted: text augmentation for vulnerability-to-technique mapping.</span></li>
+    </ul>
+  </section>
+
+
+  <!-- ====================  FOOTER  ==================== -->
+  <footer>
+    <p>
+      Last updated April 2026. Built by hand with HTML and CSS.
+      <br>
+      Source on <a href="https://github.com/gionanide/gionanide.github.io" target="_blank" rel="noopener">GitHub</a>.
+    </p>
+  </footer>
+
+</main>
+
+</body>
+</html>
