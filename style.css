@@ -120,9 +120,14 @@ strong { font-weight: 600; }
   line-height: 1.5;
 }
 
+.bio-text p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 .bio-text .contact {
   margin-top: 1.8rem;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   color: var(--text-soft);
   line-height: 2;
 }
