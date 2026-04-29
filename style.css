@@ -309,6 +309,108 @@ footer {
 
 
 /* ====================================================================
+   PAGE HEADER (sub-pages like publications)
+   ==================================================================== */
+
+.back-link {
+  font-size: 0.9rem;
+  color: var(--text-mute);
+  margin: 0 0 2rem;
+  font-style: italic;
+}
+
+.back-link a {
+  color: var(--text-soft);
+  border-bottom: none;
+}
+
+.back-link a:hover {
+  color: var(--link);
+}
+
+.back-link.bottom {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.page-header {
+  margin-bottom: 3.5rem;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.8rem;
+}
+
+.page-subtitle {
+  font-size: 1.05rem;
+  color: var(--text-soft);
+  font-style: italic;
+  line-height: 1.55;
+  max-width: 580px;
+  margin: 0;
+}
+
+
+/* ====================================================================
+   SUBPAGE HEADER (used on projects.html, publications.html, etc.)
+   ==================================================================== */
+
+.subpage-header {
+  margin-bottom: 3.5rem;
+}
+
+.back-link {
+  margin: 0 0 1.5rem;
+  font-size: 0.95rem;
+}
+
+.back-link a {
+  color: var(--text-mute);
+  border-bottom: none;
+}
+
+.back-link a:hover {
+  color: var(--link);
+}
+
+.subpage-header h1 {
+  font-size: 3rem;
+  margin: 0 0 1rem;
+}
+
+.subpage-intro {
+  color: var(--text-soft);
+  font-size: 1.05rem;
+  font-style: italic;
+  max-width: 600px;
+  margin: 0;
+}
+
+
+/* ====================================================================
+   "MORE" LINK at the bottom of homepage sections
+   ==================================================================== */
+
+.more-link {
+  margin: 1rem 0 0;
+  text-align: right;
+  font-size: 0.95rem;
+}
+
+.more-link a {
+  color: var(--link);
+  border-bottom: none;
+  font-style: italic;
+}
+
+.more-link a:hover {
+  color: var(--link-hover);
+  border-bottom: 1px solid var(--link-hover);
+}
+
+
+/* ====================================================================
    RESPONSIVE
    ==================================================================== */
 
@@ -320,6 +422,9 @@ footer {
 
   h1 { font-size: 2.6rem; }
   h2 { font-size: 1.6rem; }
+
+  .subpage-header h1 { font-size: 2.3rem; }
+  .subpage-intro { font-size: 1rem; }
 
   .bio {
     grid-template-columns: 1fr;
