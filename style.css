@@ -178,7 +178,7 @@ section {
 
 .entry {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: 220px 1fr;
   gap: 1.8rem;
   margin-bottom: 2.5rem;
   align-items: start;
@@ -186,14 +186,12 @@ section {
 
 .entry-figure {
   display: block;
-  border: 1px solid #e0ddd2;
+  border: 1px solid #1a1a1a;
   background: #ffffff;
   aspect-ratio: 4 / 3;
   overflow: hidden;
-  border-radius: 4px;
-  box-shadow: 0 1px 2px rgba(60, 50, 30, 0.04),
-              0 2px 8px rgba(60, 50, 30, 0.04);
-  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  border-radius: 2px;
+  transition: transform 0.25s ease;
 }
 
 .entry-figure img {
@@ -202,11 +200,6 @@ section {
   object-fit: cover;
   display: block;
   transition: transform 0.4s ease;
-}
-
-a.entry-figure:hover {
-  box-shadow: 0 2px 4px rgba(60, 50, 30, 0.06),
-              0 4px 14px rgba(60, 50, 30, 0.08);
 }
 
 a.entry-figure:hover img {
