@@ -178,7 +178,7 @@ section {
 
 .entry {
   display: grid;
-  grid-template-columns: 220px 1fr;
+  grid-template-columns: 280px 1fr;
   gap: 1.8rem;
   margin-bottom: 2.5rem;
   align-items: start;
@@ -187,7 +187,7 @@ section {
 .entry-figure {
   display: block;
   border: 1px solid #1a1a1a;
-  background: #ffffff;
+  background: #fbfaf6;
   aspect-ratio: 4 / 3;
   overflow: hidden;
   border-radius: 2px;
@@ -477,7 +477,7 @@ footer {
   }
 
   .entry-figure {
-    max-width: 280px;
+    max-width: 360px;
   }
 
   .news li {
